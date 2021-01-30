@@ -1,0 +1,40 @@
+PS5 2次抽獎頁面更新需求: 
+
+1. 
+上方圖片 
+index.html: 28 - 37行
+
+2. 驗證碼區架構有調整 (加最後的 li)
+可以比對 index_old.html的差別
+所以最好整個更新 .form 這個class
+
+截圖: form.png
+
+
+3. 注意事項內文更新
+
+index.html: 92 - 101行
+
+4. 更新 css 檔案
+
+/dist/css/index.css
+
+============================
+
+PS :
+index.html / inddex.css 是2次抽選的版本 (11/27)
+index_old.html / index_old.css 是第一次抽選的版本
+index_award.html / index_award.css 是抽選後的版本
+
+===============================
+
+11/25 更新
+
+index.html
+因為有2個 ID login
+所以將登入表單區拆開新增另一個class
+上面是 .login 不變
+下面表單是 .login_form
+
+/dist/css/index.css
+記得也要更新

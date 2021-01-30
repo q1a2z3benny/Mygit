@@ -1,0 +1,34 @@
+﻿執行順序:同步任物=>本輪循環(包含process.nectTick、Promise回調函數)=>次輪循環(setTimeout、setInterval、setImmediate等)
+EX:任務圖
+名稱解釋
+1.timers阶段
+
+次阶段包括setTimeout()和setInterval()
+
+2.IO callbacks
+
+大部分的回调事件，普通的caollback
+
+3.poll阶段
+
+网络连接，数据获取，读取文件等操作
+
+4.check阶段
+
+setImmediate()在这里调用回调
+
+5.close阶段 一些关闭回调，例如socket.on('close', ...)
+
+
+6. I/O 密集 vs. CPU 密集
+一個應用程式花較多時間在 CPU 計算還是等待 I/O，決定了它屬於計算密集型 (CPU-bound)，或是 I/O 密集型 (I/O-bound)。
+大部分的網頁應用程式都不太需要太多的 CPU 計算，反而是花時間慢慢等大量的 I/O 處理完畢（動不動就要打 HTTP 請求啊、跟資料庫要資料啊、讀取或更新檔案啊……等等）
+
+7.要怎樣才能讓等待 I/O 時不要卡住後續程式碼？
+(1)多執行緒 (multi-threaded)(Java, Python, Ruby… 語言)：使用阻塞 (blocking) I/O 的設計
+(2)單執行緒 (single-threaded)(node.js)：使用非阻塞 (non-blocking) I/O 設計 + 提供非同步 (asynchronous) 處理
+
+8.Node.js<=單一執行序
+適合處理大量併發 (concurrent) 的運算
+
+9.阻塞模型如 Java 等的語言會因為同步帶來佔用資源（如記憶體）的問題：因為是「來一個請求就用一個執行緒跑 (one thread per request)」的模型，所以要不斷切換執行緒，比較不利於開發大量 I/O 併發計算的應用程式。

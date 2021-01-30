@@ -1,0 +1,629 @@
+[
+  {
+    "ProductId": "212319",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 26900,
+    "OriginalPrice": 26900,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "白色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "64GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212318",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 26900,
+    "OriginalPrice": 26900,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "黑色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "64GB"
+      }
+    ]
+  },
+
+  {
+    "ProductId": "212321",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 26900,
+    "OriginalPrice": 26900,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "藍色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "64G"
+      }
+    ]
+  },
+
+  {
+    "ProductId": "212322",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 26900,
+    "OriginalPrice": 26900,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "綠色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "64GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212320",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 26900,
+    "OriginalPrice": 26900,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "(PRODUCT) RED"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "64GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212324",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 28500,
+    "OriginalPrice": 28500,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "白色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "128GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212323",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 28500,
+    "OriginalPrice": 28500,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "黑色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "128GB"
+      }
+    ]
+  },
+
+  {
+    "ProductId": "212326",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 28500,
+    "OriginalPrice": 28500,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "藍色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "128GB"
+      }
+    ]
+  },
+
+  {
+    "ProductId": "212327",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 28500,
+    "OriginalPrice": 28500,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "綠色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "128GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212325",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 28500,
+    "OriginalPrice": 28500,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "(PRODUCT) RED"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "128GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212329",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 32000,
+    "OriginalPrice": 32000,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "白色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "256GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212328",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 32000,
+    "OriginalPrice": 32000,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "黑色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "256GB"
+      }
+    ]
+  },
+
+  {
+    "ProductId": "212331",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 32000,
+    "OriginalPrice": 32000,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "藍色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "256GB"
+      }
+    ]
+  },
+
+  {
+    "ProductId": "212332",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 32000,
+    "OriginalPrice": 32000,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "綠色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "256GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212330",
+    "ProductName": "IPHONE 12",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 32000,
+    "OriginalPrice": 32000,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone12"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "(PRODUCT) RED"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "256GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212333",
+    "ProductName": "IPHONE 12 Pro",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 33900,
+    "OriginalPrice": 33900,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone 12 Pro"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "石墨色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "128GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212334",
+    "ProductName": "IPHONE 12 Pro",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 33900,
+    "OriginalPrice": 33900,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone 12 Pro"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "銀色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "128GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212335",
+    "ProductName": "IPHONE 12 Pro",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 33900,
+    "OriginalPrice": 33900,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone 12 Pro"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "金色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "128GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212336",
+    "ProductName": "IPHONE 12 Pro",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 33900,
+    "OriginalPrice": 33900,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone 12 Pro"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "太平洋藍色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "128GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212337",
+    "ProductName": "IPHONE 12 Pro",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 37400,
+    "OriginalPrice": 37400,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone 12 Pro"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "石墨色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "256GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212338",
+    "ProductName": "IPHONE 12 Pro",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 37400,
+    "OriginalPrice": 37400,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone 12 Pro"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "銀色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "256GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212339",
+    "ProductName": "iPhone 12 Pro",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 37400,
+    "OriginalPrice": 37400,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone 12 Pro"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "金色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "256GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212340",
+    "ProductName": "IPHONE 12 Pro",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 37400,
+    "OriginalPrice": 37400,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone 12 Pro"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "太平洋藍色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "256GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212341",
+    "ProductName": "IPHONE 12 Pro",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 44400,
+    "OriginalPrice": 44400,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone 12 Pro"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "石墨色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "512GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212342",
+    "ProductName": "IPHONE 12 Pro",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 44400,
+    "OriginalPrice": 44400,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone 12 Pro"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "銀色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "512GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212343",
+    "ProductName": "IPHONE 12 Pro",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 44400,
+    "OriginalPrice": 44400,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone 12 Pro"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "金色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "512GB"
+      }
+    ]
+  },
+  {
+    "ProductId": "212344",
+    "ProductName": "IPHONE 12 Pro",
+    "ProductModel": "",
+    "ProductImageUrl": "",
+    "ProductDescription": "",
+    "SellingPrice": 44400,
+    "OriginalPrice": 44400,
+    "Attributes": [
+      {
+        "AttributeName": "Model",
+        "AttributeValue": "iPhone 12 Pro"
+      },
+      {
+        "AttributeName": "Color",
+        "AttributeValue": "太平洋藍色"
+      },
+      {
+        "AttributeName": "Specification",
+        "AttributeValue": "512GB"
+      }
+    ]
+  }
+]

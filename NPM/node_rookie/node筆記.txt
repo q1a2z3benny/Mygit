@@ -1,0 +1,178 @@
+一、Node.js Modules 介紹及載入
+p.s: Local Modules require()裡要寫清楚檔案path
+(1) Core Modules
+
+	http：它包含可以用來建立http server 的一些類別, 方法, 及事件。
+	url：它包含可以解析url的一些方法。
+	querystring：它包含可以處理由client端傳來querystring的一些方法。
+	path：它包含可以處理一些檔案或資料夾路徑的方法。
+	fs：它包含檔案的存取／操作的一些類別，方法及事件。
+	util：它包含一些可供程序者使用的效能函式。
+
+	module 都可以用 require() 載入，根據不同的module，它回傳的將會是一個物件，函式，屬性，或是其他的javascript 型別。
+        
+        EX:
+	   //載入
+	   var http = require('http');
+          
+           //使用Core Modules
+	   var server = http.createServer(function(req, res){
+
+  		//相關程式碼可以寫在這裡 
+
+	   });
+ 
+	   server.listen(5050);
+
+(2) Local Modules
+         EX:
+	   //Log.js
+ 	   //登入模組
+	    var log = {
+            info: function (info) {
+                console.log('Info: ' + info);
+            },
+            warning:function (warning) {
+                console.log('Warning: ' + warning);
+            },
+            error:function (error) {
+                console.log('Error: ' + error);
+            }
+    	    };
+            //module.exports，就是宣告，這個登入物件，是一個modules
+	    module.exports = log  //這一部很重要，只要，模組(程式)要給別的模組(程式)使用，必須加這個！！
+            **************************************************************************************************
+	    //LogApp.js
+	    var myLogModule = require('./Log.js');
+		myLogModule.info('Node.js started');
+          
+
+	    
+
+
+
+
+(3)Third Party Modules
+
+
+
+
+
+二、 module.exports
+(可以直接分派 屬性，函式(方法)及物件)
+
+EX屬性:
+
+	//PMessage.js
+
+		exports.SimpleMessage = 'Hello world';
+ 
+		//or
+ 
+		module.exports.SimpleMessage = 'Hello world';
+        ******************************************************
+	//PMessageApp.js
+
+		var msg = require('./Messages.js');
+ 
+		console.log(msg.SimpleMessage);
+
+
+EX函式(方法):
+       //mLog.js
+
+		module.exports.log = function (msg) {
+    			console.log(msg);
+		};
+       *******************************************************
+       //mLogApp.js
+
+		var msg = require('./mLog.js');
+ 
+		msg.log('Hello World');
+
+EX物件:
+       //data.js
+
+		module.exports = {
+    			firstName: 'James',
+    			lastName: 'Bond'
+		}
+       //dataApp.js
+
+		var person = require('./data.js');
+		console.log(person.firstName + ' ' + person.lastName);
+
+EX類別化函式:
+       //Person.js
+
+		module.exports = function (firstName, lastName) {
+    			this.firstName = firstName;
+    			this.lastName = lastName;
+    			this.fullName = function () {
+        		return this.firstName + ' ' + this.lastName;
+    			}
+		}
+	//PersonApp.js
+
+		var person = require('./Person.js');
+ 
+		var person1 = new person('James', 'Bond');  //建立一個 person 物件，名為 person1
+ 
+		console.log(person1.fullName());
+
+三、Node.js Web Sever
+
+	EX:
+	//載入 Node.js 原生模組 http
+	var http=require('http');
+		var server=http.createServer(function(req,res){
+        if(req.url=='/'){
+            res.writeHead(200,{'Content-Type':'text/html'});
+            res.write('<html><body>This is Home Page.</body></html>');
+            res.end();
+        }else if(req.url=='/student'){
+            res.writeHead(200,{'Content-Type':'text/html'});
+            res.write('<html><body>This is student Page.</body></html>');
+            res.end();
+        }else if(req.url=='/admin'){
+            res.writeHead(200,{'Content-Type':'text/html'});
+            res.write('<html><body>This is admin Page.</body></html>');
+            res.end();
+        }else
+            res.end('Invalid Request!');
+ 
+	});
+ 
+	server.listen(5000); //進入此網站的監聽 port, 就是 localhost:xxxx 的 xxxx
+**************************************************************************************
+ 	//回應為json格式
+	var http = require('http'); 
+ 
+	var server = http.createServer(function (req, res) {   
+ 
+    		if (req.url == '/data') { //check the URL of the current request
+            		res.writeHead(200, { 'Content-Type': 'application/json' });
+            		res.write(JSON.stringify({ message: "Hello World"}));
+            		res.end();
+    		}
+	});
+ 
+	server.listen(5000);
+ 
+	console.log('Node.js web server at port 5000 is running..')
+
+    
+        
+
+四、Node.js 檔案系統
+
+
+五、Node.js EventEmitter自訂事件觸發
+
+
+	
+
+
+
+
