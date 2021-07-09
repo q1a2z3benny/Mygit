@@ -1,12 +1,27 @@
 let express = require('express');
   //載入express模組
 let engine = require('ejs-locals');
+let bodyParser = require('body-parser');
+let MongoClient = require('mongodb').MongoClient;
   //載入ejs-locals 模組
 let app = express();
 
+// parse requests of content-type - application/json
+app.use(bodyParser.json());
+
+// parse requests of content-type - application/x-www-form-urlencoded
+app.use(bodyParser.urlencoded({ extended: true }));
+
+
 let Enumerable = require('linq-js');
 
+
+var url = "mongodb://localhost:27017/";
  
+
+
+
+
 //const oracledb = require('oracledb');
 /*
 oracledb.getConnection(
@@ -34,6 +49,21 @@ var presalsejson = require('./models/PresaleModel.json');
 app.get('/', function (req, res) {
     res.render('airpodmax', {'title': '燦坤線上 ｜ AirPods Max 預約'
                             });
+})
+
+
+app.get('/mongodbtest/find', function (req, res) {
+  
+  MongoClient.connect(url, function(err, db) {
+    if (err) throw err;
+    var dbo = db.db("runoob");
+    dbo.collection("site"). find({}).toArray(function(err, result) { 
+        if (err) throw err;
+        res.send(result);
+        db.close();
+    });
+}); 
+
 })
 
 app.get('/api/ConvertModel', function (req, res) {

@@ -22,6 +22,10 @@
     "require-vuejs": "^1.1.3",
     "sequelize": "^6.3.5",
     "sqlite3": "^5.0.0",
-    "vue-router": "^3.4.9"
+    "vue-loader": "^15.9.7",
+    "vue-resource": "^1.5.2",
+    "vue-router": "^3.5.1",
+    "vue-validator": "^3.0.0-alpha.2",
+    "vuex": "^3.6.2"
   }
 }
