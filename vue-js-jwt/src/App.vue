@@ -4,7 +4,7 @@
 
       <div class="navbar-nav mr-auto">
         <li class="nav-item">
-          <router-link to="/signup" class="nav-link">signup</router-link>
+          <router-link to="/signup" class="nav-link">SIGN UP</router-link>
         </li>
         <li class="nav-item">
           <router-link to="/signin" class="nav-link">signin</router-link>
