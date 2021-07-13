@@ -36,6 +36,12 @@ export default new Router({
        path:"/signin",
        name:"signin",
        component: () => import("./components/UserSignin")
+    },
+
+    {
+      path:"/showsignin",
+      name:"show",
+      component:() => import("./components/ShowSignin")
     }
     
   ]

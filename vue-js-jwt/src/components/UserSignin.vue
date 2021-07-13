@@ -15,12 +15,12 @@
         />
       </div>
     </form>
-    <button type="submit" class="badge badge-success"
+    <button type="submit" class="badge badge-success" 
       @click="postSignIn"
     >
       login
     </button>
-    <p>{{ message }}</p>
+    <p>{{message}}</p>
   </div>
 </template>
 
@@ -35,7 +35,7 @@ export default {
         username: "",
         password: ""
       },
-      message: ''
+      message:""
     };
   },
   methods: {
@@ -45,8 +45,27 @@ export default {
         let vm = this;
         AuthDataService.signIn(vm.signdata)
         .then(response => {
+          if (response.data.accessToken != null){
+              //寫入cookie 
+           let d = new Date();
+           d.setTime(d.getTime() + 1 * 24 * 60 * 60 * 1000);
+           let expires = "expires=" + d.toUTCString();
+           document.cookie =
+           "Token=" + response.data.accessToken + ";" + expires + ";path=/";
+           vm.$router.push("/showsignin");
+           //vm.$router.push({path:"/showsignin", params: {userId: "123"}});
+           /*
+           vm.$router.push({
+            pathname: '/showsignin',query: vm.signdata
+           })
+
+            */
+           
+          }
+          else {
             vm.message = response.data.message;
-        })
+          }
+          })
         .catch(e => {
             console.log(e);
         });
