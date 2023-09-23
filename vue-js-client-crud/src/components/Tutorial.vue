@@ -70,6 +70,8 @@ export default {
         .then(response => {
           this.currentTutorial = response.data;
           console.log(response.data);
+
+          
         })
         .catch(e => {
           console.log(e);

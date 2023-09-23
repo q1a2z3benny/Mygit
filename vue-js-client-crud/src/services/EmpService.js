@@ -1,8 +1,8 @@
 import http from "../http-common";
 
-class LoginService {
-  get() {
-    return http.get("/auth/user", {
+class EmpService {
+  get(empworknumber) {
+    return http.get(`/api/Emp?EmpWorkNumber=${empworknumber}`, {
       headers: {Authorization: "Bearer " + localStorage.getItem("token")}
     });
   }
@@ -21,4 +21,4 @@ class LoginService {
 
 }
 
-export default new LoginService();
+export default new EmpService();

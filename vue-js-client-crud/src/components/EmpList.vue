@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="col-md-6">
-      <h4>Tutorials List</h4>
+      <h4>Emp List</h4>
       <ul class="list-group">
         <li class="list-group-item"
           :class="{ active: index == currentIndex }"
@@ -62,6 +62,7 @@
 </template>
 
 <script>
+import EmpService from "../services/EmpService";
 import TutorialDataService from "../services/TutorialDataService";
 
 export default {
@@ -122,11 +123,22 @@ export default {
       this.login = {};
       // this.$router.push("/tutorials");
       this.$router.push({path:"/"}).catch(() => {});
+    },
+    getEmpbyWorkID(empworknumber) {
+         EmpService.get(empworknumber)
+        .then(response => {
+           /*this.tutorial.id = response.data.id;*/
+          console.log(response.data);
+        })
+        .catch(e => {
+          console.log(e);
+        });
+
     }
   },
   mounted() {
      this.$store.dispatch('isToken');
-    this.retrieveTutorials();
+    // this.retrieveTutorials();
   } ,
   computed: {
     islogin () {

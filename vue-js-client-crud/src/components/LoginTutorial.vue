@@ -1,8 +1,9 @@
 <template>
   <div class="submit-form">
+
     <div v-if="!islogin">
       <div class="form-group">
-        <label for="account">add</label>
+        <label for="account">Account</label>
         <input
           type="text"
           class="form-control"
@@ -14,7 +15,7 @@
       </div>
 
       <div class="form-group">
-        <label for="password">adddd</label>
+        <label for="password">Password</label>
         <input
           class="form-control"
           id="password"
@@ -30,7 +31,9 @@
     <div v-else>
       <h4>You login successfully!</h4>
       <button class="btn btn-success" @click="newTutorial">OK</button>
+     
     </div>
+   
   </div>
 </template>
 
@@ -47,7 +50,6 @@ export default {
         password: "",
         published: false
       },
-      islogin: false
     };
   },
   methods: {
@@ -64,8 +66,8 @@ export default {
         .then(response => {
            /*this.tutorial.id = response.data.id;*/
           console.log(response.data);
-          this.islogin = true;
           localStorage.setItem("token", response.data.token);
+          this.$store.dispatch('isToken');
         })
         .catch(e => {
           console.log(e);
@@ -73,9 +75,15 @@ export default {
     },
     
     newTutorial() {
-      this.islogin = true;
       this.login = {};
-      this.$router.push("/tutorials");
+      // this.$router.push("/tutorials");
+      this.$router.push({path:"/tutorials"}).catch(() => {});
+    }
+  }
+  ,
+  computed: {
+    islogin () {
+      return this.$store.getters.islogin
     }
   }
 };

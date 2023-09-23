@@ -10,7 +10,7 @@ class TutorialDataService {
   }
 
   post(data) {
-    return http.post("/auth/user", data);
+    return http.post("/tutorials", data);
   }
 
   update(id, data) {
